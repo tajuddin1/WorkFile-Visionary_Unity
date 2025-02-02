@@ -3615,8 +3615,7 @@ input, select, textarea {
 
 		#wrapper > header {
 			padding: 6.5em 2em 3em 2em ;
-			background-size: auto,
- 125%;
+			background-size: auto, cover;
 			margin-bottom: -2.5em;
 		}
 
@@ -3993,8 +3992,13 @@ input, select, textarea {
 
 			.wrapper.spotlight .inner {
 				display: block;
+				text-align: center !important;
 			}
 
+			#header h1 a img {
+				width: 3em;
+			}
+			
 			.wrapper.spotlight .image {
 				margin: 0 0 1em 0 !important;
 				max-width: 85%;
