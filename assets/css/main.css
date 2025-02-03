@@ -2978,7 +2978,7 @@ input, select, textarea {
 			opacity: 0.25;
 		}
 
-		@media screen and (max-width: 480px) {
+		/* @media screen and (max-width: 480px) {
 
 			input[type="submit"],
 			input[type="reset"],
@@ -2988,7 +2988,7 @@ input, select, textarea {
 				padding: 0;
 			}
 
-		}
+		} */
 
 /* Features */
 
@@ -3578,6 +3578,13 @@ input, select, textarea {
 			line-height: 2;
 			text-transform: uppercase;
 		}
+		#wrapper > header .inner.privacy-policy p {
+			margin-bottom: 10px;
+		}
+		.inner.privacy-policy.mt-5{
+			padding-top: 130px;
+			padding-bottom: 100px;
+		}
 
 	@media screen and (max-width: 1280px) {
 
@@ -4058,7 +4065,7 @@ input, select, textarea {
 
 			#footer .inner .copyright li {
 				border-left: solid 2px rgba(255, 255, 255, 0.125);
-				color: rgba(255, 255, 255, 0.35);
+				/* color: rgba(255, 255, 255, 0.35); */
 				display: inline-block;
 				font-size: 0.9em;
 				line-height: 1;
